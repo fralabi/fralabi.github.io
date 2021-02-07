@@ -1,0 +1,299 @@
+/* Body */
+body {
+    background-image: url(../image/sfondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Parte iniziale */
+.center {
+    padding: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    color: white;
+}
+
+.center h2 {
+    font-size: 40px;
+}
+
+.center h4 {
+    font-size: 25px;
+}
+
+.header {
+    margin: 40px 80px 40px 80px;
+    align-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    height: 400px;
+    width: auto;
+    text-align: left;
+    /* orizzonatle */
+}
+
+.header h1 {
+    color: white;
+    margin: 150px 0px 30px 0px;
+}
+
+.header h3 {
+    color: white;
+}
+
+.title {
+    text-align: left;
+    /* orizzontale */
+    line-height: 350px;
+    /* verticale */
+}
+
+.header ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: solid 3px #ffffff;
+    z-index: 2;
+}
+
+.header ul li a .fab {
+    position: relative;
+    color: #262626;
+    transition: 1s;
+    z-index: 3;
+}
+
+.header ul li a:hover .fab {
+    color: #FFFFFF;
+    transform: rotateY(360deg);
+}
+
+
+.header ul li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
+    transition: .8s;
+    z-index: 1;
+}
+
+.header ul li a:hover:before {
+    top: 0;
+}
+
+.header ul li:nth-child(1) a:before {
+    background-color: #2D88FF;
+}
+
+.header ul li:nth-child(2) a:before {
+    background-color: #E1306C;
+}
+
+.header ul li:nth-child(3) a:before {
+    background-color: #1DA1F2;
+}
+
+.header ul li:nth-child(4) a:before {
+    background-color: #1BA94C;
+}
+
+.header ul li:nth-child(5) a:before {
+    background-color: #0A66C2;
+}
+
+
+/* ABOUT ME */
+
+.about-me {
+    background-color: #1A1A1A;
+}
+
+.row {
+    margin: 40px 80px 40px 80px;
+    font-size: 20px;
+}
+
+.col-12:nth-child(1) {
+    text-align: left;
+}
+
+.col-12:nth-child(2) {
+    text-align: right;
+}
+
+.col-12 p {
+    margin: 40px 80px 40px 80px;
+}
+
+.col-6 img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.skills {
+    margin: 20px auto 20px auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-collapse: separate;
+    border-spacing: 30px;
+    width: 80%;
+    height: 25px;
+}
+
+.skills td,
+th {
+    padding: 10px;
+}
+
+.skills div {
+    transition: color .5s;
+    height: 75%;
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.skills p {
+    font-size: 20px;
+}
+
+.skills .fa-java:hover {
+    color: #D20001;
+}
+
+.skills .fa-python:hover {
+    color: #FFE05D;
+}
+
+.skills .fa-database:hover {
+    color: #F29221;
+}
+
+.skills .fa-php:hover {
+    color: #8892BF;
+}
+
+.skills .fa-cuttlefish:hover {
+    color: #659BD3;
+}
+
+.skills .fa-html5:hover {
+    color: #E54C21;
+}
+
+.skills .fa-css3-alt:hover {
+    color: #214CE5;
+}
+
+.skills .fa-js-square:hover {
+    color: #F7E018;
+}
+
+/* PROJECT */
+
+.project {
+    background-color: #141414;
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: #1B1B1B;
+}
+
+form {
+    max-width: 620px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #ABFA2D;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #6BAD00;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    width: 100%;
+    background: #6BAD00;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #ABFA2D;
+}
+
+.col-6 p {
+    align-self: center;
+    text-align: left;
+    margin: 30% 80px 40% 80px;
+    width: 100%;
+}
+
+/* Footer */
+
+.copyright {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
