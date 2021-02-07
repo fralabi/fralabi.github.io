@@ -125,6 +125,9 @@ body {
     background-color: #0A66C2;
 }
 
+.header ul li:nth-child(6) a:before {
+    background-color: #161B22;
+}
 
 /* ABOUT ME */
 
