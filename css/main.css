@@ -217,6 +217,10 @@ th {
     color: #214CE5;
 }
 
+.skills .fa-bootstrap:hover {
+    color: #7952B3;
+}
+
 .skills .fa-js-square:hover {
     color: #F7E018;
 }
