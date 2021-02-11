@@ -231,6 +231,25 @@ th {
     background-color: #141414;
 }
 
+.project-button {
+    margin: 50px;
+}
+
+.project-button img {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    width: 65%;
+    height: 250px;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+
+.project-button img:hover {
+    opacity: .8;
+}
+
 /* CONTACT */
 
 .contact {
