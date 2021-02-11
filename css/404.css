@@ -1,9 +1,23 @@
+body,html {
+    height:100%
+}
+
 body {
     background-color: #1B1B1B;
     color: white;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
 }
 
-h1 {
-    align-self: center;
-    
+table {
+    height: 100%;
+    width: 100%;
+}
+
+td:nth-child(2) {
+    width: 33%;
+}
+
+.fas {
+    font-size: 50px;
 }
