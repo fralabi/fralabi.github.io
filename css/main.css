@@ -3,6 +3,7 @@ body {
     background-image: url(../image/sfondo.jpg);
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
 }
 
 /* Parte iniziale */
@@ -15,12 +16,14 @@ body {
 
 .center h2 {
     font-size: 40px;
+    margin-top: 10px;
 }
 
 .center h4 {
     font-size: 25px;
 }
 
+    
 .header {
     margin: 40px 80px 40px 80px;
     align-content: center;
@@ -28,7 +31,6 @@ body {
     height: 400px;
     width: auto;
     text-align: left;
-    /* orizzonatle */
 }
 
 .header h1 {
@@ -56,11 +58,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
-.header ul li {
-    list-style: none;
-}
-
 .header ul li a {
     width: 100px;
     height: 100px;
@@ -75,6 +72,10 @@ body {
     overflow: hidden;
     border: solid 3px #ffffff;
     z-index: 2;
+}
+
+.header ul li {
+    list-style: none;
 }
 
 .header ul li a .fab {
@@ -324,3 +325,265 @@ textarea {
     text-align: center;
     font-weight: bold;
 }
+
+
+@media (max-width: 1200px) {  
+} /* for desktops */
+
+@media (max-width: 991px) { 
+    .header {
+        margin: 40px 70px 40px 70px;
+        align-content: center;
+        font-family: 'JetBrains Mono', monospace;
+        height: 350px;
+        width: auto;
+        text-align: left;
+    }
+    
+    .header h1 {
+        color: white;
+        margin: 100px 0px 30px 0px;
+    }
+    
+    .header h3 {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .title {
+        text-align: left;
+        /* orizzontale */
+        line-height: 450px;
+        /* verticale */
+    }
+
+    .header ul {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .header ul li a {
+        width: 90px;
+        height: 90px;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: 50px;
+        line-height: 85px;
+        margin: 0 5px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: solid 3px #ffffff;
+        z-index: 2;
+    }
+} /* for laptops */
+
+@media (min-width: 768px) and (max-width: 990px) { 
+    .header {
+        margin: 40px 70px 40px 70px;
+        align-content: center;
+        font-family: 'JetBrains Mono', monospace;
+        height: 350px;
+        width: auto;
+        text-align: left;
+    }
+    
+    .header h1 {
+        color: white;
+        margin: 100px 0px 30px 0px;
+    }
+    
+    .header h3 {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .title {
+        text-align: left;
+        /* orizzontale */
+        line-height: 450px;
+        /* verticale */
+    }
+
+    .header ul {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .header ul li a {
+        width: 90px;
+        height: 90px;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: 50px;
+        line-height: 85px;
+        margin: 0 5px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: solid 3px #ffffff;
+        z-index: 2;
+    }
+ } /* for large tablets */
+
+@media (max-width: 768px) { 
+    .header {
+        margin: 40px 70px 40px 70px;
+        align-content: center;
+        font-family: 'JetBrains Mono', monospace;
+        height: 350px;
+        width: auto;
+        text-align: left;
+    }
+    
+    .header h1 {
+        color: white;
+        margin: 100px 0px 30px 0px;
+    }
+    
+    .header h3 {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .title {
+        text-align: left;
+        /* orizzontale */
+        line-height: 450px;
+        /* verticale */
+    }
+
+    .header ul {
+        display: flex;
+        position: absolute;
+        top: 55%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .header ul li a {
+        width: 80px;
+        height: 80px;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: 45px;
+        line-height: 75px;
+        margin: 0 5px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: solid 3px #ffffff;
+        z-index: 2;
+    }
+ } /* for smaller tablets */
+
+@media (max-width: 500px) {
+    
+    .header {
+        margin: 40px 70px 40px 70px;
+        align-content: center;
+        font-family: 'JetBrains Mono', monospace;
+        height: 400px;
+        width: auto;
+        text-align: left;
+    }
+    
+    .header h1 {
+        color: white;
+        margin: 100px 0px 30px 0px;
+    }
+    
+    .header h3 {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .title {
+        text-align: left;
+        /* orizzontale */
+        line-height: 450px;
+        /* verticale */
+    }
+
+    .header ul {
+        display: flex;
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .header ul li a {
+        width: 50px;
+        height: 50px;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 5px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: solid 3px #ffffff;
+        z-index: 2;
+    }
+
+    .row {
+        margin: 40px 70px 40px 70px;
+        font-size: 15px;
+        
+    }
+    
+    .col-12 p {
+        margin: 40px 80px 40px 80px;
+        text-align: left;
+    }
+    
+    .col-6 img {
+        border-radius: 10px;
+        /* Allineare al centro */
+
+    }
+
+    .skills {
+        margin: 20px auto 20px auto;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        border-collapse: separate;
+        border-spacing: 10px;
+        width: 50%;
+        height: 20px;
+    }
+    
+    .skills td,
+    th {
+        padding: 5px;
+    }
+    
+    .skills div {
+        transition: color .5s;
+        height: 75%;
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+        text-decoration: none;
+    
+    }
+    
+    .skills p {
+        font-size: 20px;
+    }
+    
+ } /* for cellphones */
